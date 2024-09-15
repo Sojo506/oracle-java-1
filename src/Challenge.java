@@ -39,7 +39,8 @@ public class Challenge {
                 case 3:
                     System.out.println("\n--How much do you want to deposit?");
                     double depositedBalance = sc.nextDouble();
-                    System.out.printf("--Actual balance: $%f%n", depositedBalance);
+                    balance += depositedBalance;
+                    System.out.printf("--Actual balance: $%f%n", balance);
                     break;
                 case 9:
                     System.out.println("\nLogging off... see you!");
